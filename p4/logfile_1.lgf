@@ -1,0 +1,23 @@
+
+=====================================
+Simulator Log File Header
+
+File Name                : metadata1.mdf
+CPU Scheduling           : FCFS-P
+Quantum Cycles           : 3
+Memory Available(KB)     : 11100
+Processor Cycle Rate (ms/cycle)     : 10
+I/O Cycle Rate(ms/cycle) : 20
+
+================
+Begin Simulation
+
+OS: Simulation Start
+  0.001778, OS: Process 0 set to READY state from NEW state
+  0.002821, OS: Process 0 selected with -11590 ms remaining
+  0.003836, OS: Process 0 set from READY to RUNNING
+
+  0.005388, Process: 0, video signal input operation start
+
+  0.007019, OS: Process 0 blocked for input operation
+  0.008094, OS: Process 0 set from RUNNING to BLOCKED
